@@ -1,28 +1,21 @@
 package og.liufeng.course.util;
 
-import java.io.InputStream;
-import java.io.Writer;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-
-import org.dom4j.Document;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
-
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.core.util.QuickWriter;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
 import com.thoughtworks.xstream.io.xml.XppDriver;
+import og.liufeng.course.message.resp.*;
+import org.dom4j.Document;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
 
-import og.liufeng.course.message.resp.ImageMessage;
-import og.liufeng.course.message.resp.MusicMessage;
-import og.liufeng.course.message.resp.NewsMessage;
-import og.liufeng.course.message.resp.TextMessage;
-import og.liufeng.course.message.resp.VideoMessage;
+import javax.servlet.http.HttpServletRequest;
+import java.io.InputStream;
+import java.io.Writer;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MessageUtil {
 	
