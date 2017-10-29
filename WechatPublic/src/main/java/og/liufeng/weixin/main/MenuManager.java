@@ -83,8 +83,8 @@ public class MenuManager {
     }
 
     public static void main(String[] args) {
-        String appId = "";
-        String appSecret = "";
+        String appId = "wx4d1ce64dad802a83";
+        String appSecret = "c77cebf75ecfd1e07a27a3893f52b2aa";
 
         Token token = CommonUtil.getToken(appId, appSecret);
 
